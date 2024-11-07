@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Editable Resume Builder</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Editable Resume Builder</h1>
+    <form id="resumeForm">
+      <!-- Basic Information Section -->
+      <label>Name: <input type="text" id="name" placeholder="Enter your name"></label>
+      <label>Father's Name: <input type="text" id="name" placeholder="Enter your father's name"></label>
+      <label>Education: <textarea id="education" placeholder="Enter education details separated by commas"></textarea></label>
+      <label>Email: <input type="email" id="email" placeholder="Enter your email"></label>
+      <label>Phone Number: <input type="text" id="phoneNumber" placeholder="Enter your phone number"></label>
+      <label>Address: <input type="text" id="address" placeholder="Enter your address"></label>
+     <label>Hobby: <input type="text" id="hobby" placeholder="Enter your hobby"></label>
+    <label>Skills: <input type="text" id="skills" placeholder="Enter skills separated by commas"></label>
+    <label>Work Experience: <textarea id="workExperience" placeholder="Enter work experiences separated by commas"></textarea></label>
+     
+      <button type="button" id="submit">Update Resume</button>
+    </form>
+    <div id="resumeOutput"></div>
+  </div>
+  <script src="dist/index.js"></script>
+</body>
+</html>
